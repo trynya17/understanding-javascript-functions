@@ -1,5 +1,4 @@
-console.log( "A" - "B" + 2);
-const toggleBool = () => (bool = !bool);
-const merge = Object.assign({}, obj1, obj2);
-console.log( "A" - "B" + "2");
-const stringReverse = str => str.split("").reverse().join("");
+const maxNumber = arr => Math.max(...arr);
+[foo, bar] = [bar, foo];
+console.log("0 || 1 = "+(0 || 1));
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
