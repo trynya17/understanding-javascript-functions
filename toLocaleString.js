@@ -1,3 +1,2 @@
-var arr2 = arr1.reverse();
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-console.log(1 +  "2" + "2");
+console.log("0 && 1 = "+(0 && 1));
+console.log("1 || 2 = "+(1 || 2));
