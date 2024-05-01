@@ -1,2 +1,2 @@
-console.log("0 && 1 = "+(0 && 1));
-console.log("1 || 2 = "+(1 || 2));
+const merge = (a, b) => a.concat(b);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
