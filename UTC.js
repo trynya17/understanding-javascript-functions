@@ -1,2 +1,2 @@
-const fullName = name || 'buddy';
-const goToTop = () => window.scrollTo(0, 0);
+const allResults = await Promise.all(items.map(async (item) => {}));
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
