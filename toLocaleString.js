@@ -1,3 +1,3 @@
-console.log("1 && 2 = "+(1 && 2));
-var arr2 = arr1.reverse();
-const removeDuplicates = (arr) => [...new Set(arr)];
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const merge = (a, b) => a.concat(b);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
