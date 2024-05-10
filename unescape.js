@@ -1,2 +1,2 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const lastElement = arr => arr[arr.length - 1];
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+[foo, bar] = [bar, foo];
