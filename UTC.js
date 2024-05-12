@@ -1,2 +1,3 @@
-const merge = (a, b) => a.concat(b);
-function myAPITS(someString: string, someNum: number) { ... };
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const goToTop = () => window.scrollTo(0, 0);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
