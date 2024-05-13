@@ -1,2 +1,2 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const merge = (a, b) => a.concat(b);
+const goToTop = () => window.scrollTo(0, 0);
