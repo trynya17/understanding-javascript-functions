@@ -1,2 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const minNumber = arr => Math.min(...arr);
+const randomBoolean = () => Math.random() >= 0.5;
+const uniqueArray = arr => [...new Set(arr)];
+const arrayContains = (arr, element) => arr.includes(element);
