@@ -1,3 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const uniqueArray = arr => [...new Set(arr)];
-const arrayContains = (arr, element) => arr.includes(element);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
