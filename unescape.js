@@ -1,3 +1,3 @@
-const isTabInView = () => !document.hidden;
-const result = await makeHttpRequest(url);
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+var arr1 = "john".split('');
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const results = await Promise.all(resultingPromises);
