@@ -1,3 +1,2 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const merge = Object.assign({}, obj1, obj2);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
 const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
