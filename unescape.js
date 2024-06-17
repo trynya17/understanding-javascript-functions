@@ -1,3 +1,3 @@
-var arr1 = "john".split('');
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const results = await Promise.all(resultingPromises);
+console.log("1 && 2 = "+(1 && 2));
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+var DELIM_SIZE = 4;
