@@ -1,2 +1,3 @@
-console.log(1 +  +"2" + "2");
-const allResults = await Promise.all(items.map(async (item) => {}));
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const merge = (a, b) => [...a, ...b];
+const stringReverse = str => str.split("").reverse().join("");
