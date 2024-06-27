@@ -1,2 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const randomString = () => Math.random().toString(36).slice(2);
+console.log(false == '0');
+const lastElement = arr => arr[arr.length - 1];
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
