@@ -1,3 +1,3 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-console.log(1 +  -"1" + "2");
 var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const lastElement = arr => arr[arr.length - 1];
+const value = ( 5 < 7 ) ? "True" : "False" ;
