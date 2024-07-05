@@ -1,3 +1,3 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-const merge = (a, b) => [...a, ...b];
-const stringReverse = str => str.split("").reverse().join("");
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+function myAPITS(someString: string, someNum: number) { ... };
