@@ -1,1 +1,1 @@
-const allResults = await Promise.all(items.map(async (item) => {}));
+const isEmptyObject = obj => Object.keys(obj).length === 0;
