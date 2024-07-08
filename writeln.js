@@ -1,3 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-function myAPITS(someString: string, someNum: number) { ... };
+const appName = getAppName(channel);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
