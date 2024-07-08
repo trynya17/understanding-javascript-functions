@@ -1,3 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const lastElement = arr => arr[arr.length - 1];
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+console.log(1 +  -"1" + "2");
