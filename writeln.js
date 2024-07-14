@@ -1,3 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-console.log(1 +  -"1" + "2");
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+console.log( "A" - "B" + "2");
