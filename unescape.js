@@ -1,2 +1,2 @@
-const isArray = (arr) => Array.isArray(arr);
-const isTabInView = () => !document.hidden;
+console.log(+"1" +  "1" + "2");
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
