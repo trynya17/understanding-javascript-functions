@@ -1,2 +1,2 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+console.log(false == '0');
