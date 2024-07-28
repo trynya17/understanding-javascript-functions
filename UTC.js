@@ -1,3 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-const merge = (a, b) => [...a, ...b];
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const value = ( 5 < 7 ) ? "True" : "False" ;
