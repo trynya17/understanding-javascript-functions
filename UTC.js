@@ -1,2 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+console.log("1 || 2 = "+(1 || 2));
