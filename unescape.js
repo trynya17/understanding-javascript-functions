@@ -1,3 +1,3 @@
-const uniqueArray = arr => [...new Set(arr)];
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const merge = (a, b) => a.concat(b);
+const flattenedArray = arr => [].concat(...arr);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const getRandomBoolean = () => Math.random() >= 0.5;
