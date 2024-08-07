@@ -1,2 +1,3 @@
-console.log(false === '0');
-const lastElement = arr => arr[arr.length - 1];
+console.log("1 || 2 = "+(1 || 2));
+const merge = [...new Set([...a, ...b])];
+const flattenedArray = arr => [].concat(...arr);
